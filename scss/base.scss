@@ -1,0 +1,29 @@
+body {
+	background: #D7D7D7;
+}
+/* Basic font styles */
+h1, h2 {
+	font-family: $font-stack-header;
+	text-transform: uppercase;
+}
+p {
+	font-family: $font-stack-body;
+}
+nav {
+	background: #fff;
+	/* Set width of logo */
+	.logo {
+		max-width: 362px;
+		padding: 20px 0;
+		margin: 0 auto;
+	}	
+}
+footer {
+	background: #fff;
+	/* Set width of logo */
+	.logo {
+		max-width: 250px;
+		padding: 20px 0;
+		margin: 0 auto;
+	}
+}
